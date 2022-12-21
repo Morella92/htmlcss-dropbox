@@ -44,9 +44,11 @@ input {
     margin: 0 auto;
 }
 
+section{
+    padding-top: 90px;
+}
+
 /**** DEBUG RULES********/
-
-
 
 
 /********** HEADER RULES********* */
@@ -73,15 +75,10 @@ input {
     padding: 10px 20px;
 }
 
-/**********MAIN RULES *******/
+/**********HERO RULES *******/
 
 .section_hero{
     background-color: #B4D0E7;
-    
-}
-
-.container_hero{
-    margin-top: 90px;
 }
 
 .row{
@@ -110,5 +107,16 @@ input {
 
 .col_hero_image{
     flex-basis: 60%;
-    margin-top: -85px;
+    padding-top: 10px;
+}
+
+/********** FIRST STANDARD SECTION ********/
+
+.col_first_section{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.col_radio{
+    padding: 45px 45px 45px 0;
 }
