@@ -120,3 +120,7 @@ section{
 .col_radio{
     padding: 45px 45px 45px 0;
 }
+
+.col_card{
+    flex-basis: 100% / 3;
+}
