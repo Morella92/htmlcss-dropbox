@@ -73,6 +73,7 @@ section{
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
+    width: fit-content;
 }
 
 /**********HERO RULES *******/
@@ -94,6 +95,7 @@ section{
 .col_hero_content{
     flex-basis: 40%;
     padding-right: 40px;
+    position: relative;
 }
 
 .p_hero{
@@ -103,6 +105,14 @@ section{
 
 .unsuscribe{
     line-height: 100px;
+}
+
+.fa-arrow-down{
+    font-weight: 700;
+    font-size: 60px;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
 }
 
 .col_hero_image{
@@ -121,6 +131,49 @@ section{
     padding: 45px 45px 45px 0;
 }
 
+.row_card{
+    flex-wrap: wrap;
+
+}
+
 .col_card{
-    flex-basis: 100% / 3;
+    flex-basis: calc(100% / 3);
+    border: 1px solid rgb(127, 135, 144);
+    gap: 50px;
+}
+
+.heading{
+    border-bottom: 1px solid rgb(127, 135, 144);
+    text-align: center;
+    padding: 10px;
+}
+
+.card_list, .click_list, .packet_description{
+    line-height: 70px;
+    padding: 20px;
+}
+
+.button_click_list{
+    line-height: 25px;
+}
+
+.buy{
+    text-decoration: underline;
+    color: blue;
+}
+
+.click_list::after{
+    border-bottom: 1px solid rgb(127, 135, 144);
+    padding-top: 50px;
+}
+
+.col_last_card{
+    margin-top: 50px;
+    flex-basis: 100%;
+    border: 1px solid rgb(127, 135, 144);
+}
+
+.last_card_info{
+    display: flex;
+    justify-content: space-between;
 }
