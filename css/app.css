@@ -44,9 +44,12 @@ input {
     margin: 0 auto;
 }
 
-.debug header{
-    border: 2px solid black;
-}
+/**** DEBUG RULES********/
+
+
+
+
+/********** HEADER RULES********* */
 
 .navbar{
     padding: 20px;
@@ -61,10 +64,51 @@ input {
 
 .nav_list_items{
     padding: 0 20px;
+    line-height: 10px;
 }
 
-.start_button{
+.button{
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
+}
+
+/**********MAIN RULES *******/
+
+.section_hero{
+    background-color: #B4D0E7;
+    
+}
+
+.container_hero{
+    margin-top: 90px;
+}
+
+.row{
+    display: flex;
+}
+
+.col_hero_title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.col_hero_content{
+    flex-basis: 40%;
+    padding-right: 40px;
+}
+
+.p_hero{
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.unsuscribe{
+    line-height: 100px;
+}
+
+.col_hero_image{
+    flex-basis: 60%;
+    margin-top: -85px;
 }
