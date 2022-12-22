@@ -177,6 +177,9 @@ section{
     padding-top: 50px;
 } */
 
+.row_card{
+    justify-content: space-between;
+}
 .col_last_card{
     margin-top: 50px;
     flex-basis: 100%;
@@ -187,6 +190,10 @@ section{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.last_card_p2{
+    padding-top: 50px;
 }
 
 /**********SECTION PARTNER RULES*******/
@@ -237,18 +244,23 @@ section{
 
 /*****LOGO IMAGES RULES*******/
 
-.col_5{
-    flex-basis: calc(100% / 5);
+.col_images{
+    flex-basis: calc(100% / 6);
 }
 
 .logo_images{
     min-height: 250px;
-    color: white;
+}
+
+.big_col{
+    flex-grow: 1;
+    background-color: lightslategray;
 }
 
 .logo_designit{
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
+    margin-bottom: 0;
 }
 
 .logo_florida{
@@ -261,10 +273,6 @@ section{
 
 .logo_topps{
     background-color: tomato;
-}
-
-.big_logo{
-    background-color: lightslategray;
 }
 
 .logo_bicycle{
@@ -285,4 +293,45 @@ section{
 
 .title_marketing{
     color: #61082B;
+}
+
+.row_marketing{
+    justify-content: space-between;
+}
+
+/******** SECTION FAQ *************/
+
+.faq, .questions{
+    padding: 30px 0;
+}
+
+.questions{
+    border-top: 2px solid lightslategray;
+}
+
+.last_question{
+    border-bottom: 2px solid lightslategray;
+
+}
+
+/******** FOOTER RULES **********/
+
+.section_footer{
+    margin-top: 70px;
+    background-color: black;
+}
+
+.col_footer{
+    color: white;
+    flex-basis: calc(100% / 5);
+    line-height: 30px;
+}
+
+.col_language{
+    padding-top: 80px;
+}
+
+.language_choice{
+    border-top: 2px solid white;
+    padding-top: 20px;
 }
