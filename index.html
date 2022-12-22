@@ -11,36 +11,38 @@
 <body>
 
     <header class=".container_all">
-        <nav class="navbar">
+        <nav class="navbar-header">
             <ul class="nav_list">
-                <li class="nav_list_items">
-                    <a class="logo" href="#">
-                        <img src="./img/logo-small.png" alt="">
+                <!-- se do il padding alla a rendo tutta l'area cliccabile
+                 quindi dovrei dare la classe nav_list_items alla a -->
+                <li>
+                    <a class="list_items" href="#">
+                        <img class="logo_dropbox" src="./img/logo-small.png" alt="">
                     </a>
                 </li>
-                <li class="nav_list_items">
-                    <a href="#">Perchè Dropbox</a>
+                <li>
+                    <a class="list_items" href="#">Perchè Dropbox</a>
                 </li>
-                <li class="nav_list_items">
-                    <a href="#">Funzioni</a>
+                <li>
+                    <a class="list_items" href="#">Funzioni</a>
                 </li>
-                <li class="nav_list_items">
-                    <a href="#">Piani e prezzi</a>
+                <li>
+                    <a class="list_items" href="#">Piani e prezzi</a>
                 </li>
             </ul>
 
             <ul class="nav_list">
-                <li class="nav_list_items">
-                    <a href="#">Supporto</a>
+                <li>
+                    <a  class="list_items" href="#">Supporto</a>
                 </li>
-                <li class="nav_list_items">
-                    <a href="#">Contatta l'ufficio vendite</a>
+                <li>
+                    <a  class="list_items" href="#">Contatta l'ufficio vendite</a>
                 </li>
-                <li class="nav_list_items">
-                    <a href="#">Accedi</a>
+                <li>
+                    <a  class="list_items" href="#">Accedi</a>
                 </li>
-                <li class="nav_list_items">
-                    <a class="button" href="#">Inizia</a>
+                <li>
+                    <a  class="list_items button" href="#">Inizia</a>
                 </li>
             </ul>
         </nav>
@@ -57,6 +59,7 @@
 
                 <div class="row row_hero">
                     <div class="col_hero_content">
+                        <!-- LA LISTA RACCHIUDE DEI LINK DI SOLITO, NON VA BENE IN QUESTO CASO -->
                         <ul>
                             <li>
                                 <p class="p_hero">
@@ -64,12 +67,12 @@
                                 </p>
                             </li>
                             <li>
-                                <a class="button" href="#">
+                                <a class="button button_hero" href="#">
                                     Inizia la tua prova gratuita
                                 </a>
                             </li>
                             <li>
-                                <a class="unsuscribe" href="#">Annulla in qualsiasi momento</a>
+                                <p class="unsuscribe">Annulla in qualsiasi momento</p>
                             </li>
                             <li>
                                 <i class="fa-sharp fa-solid fa-arrow-down"></i>
@@ -257,7 +260,7 @@
                                 </li>
                                                     
                                 <ul class="click_list">
-                                    <li class="button button_click_list">
+                                    <li class="button button_click_list button_3card">
                                         Contattaci
                                     </li>
                                     <li>
@@ -304,12 +307,177 @@
                                 <li class="button button_click_list">
                                     Contatta l'ufficio vendite
                                 </li>
-                                <li>
-                                    Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
-                                </li>               
                             </ul>
                         </div>
+
+                        <div class="last_card_p">
+                            <p>
+                                Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
+                            </p>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container_standard">
+                <div class="row row_partner">
+                    <div class="col_partner partner_content">
+                        <ul>
+                            <li>
+                                <h2 class="title_partner">Entra in contatto con un partner Dropbox</h2>
+                            </li>
+                            <li>
+                                <p class="p_partner">
+                                    Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.
+                                </p>
+                            </li>
+                            <li>
+                                <a class="button button_partner" href="#">
+                                    Trova un partner
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+
+                    <div class="col_partner partner_image">
+                        <figure>
+                            <img src="./img/partner.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container_standard">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="title_business">Esegui più operazioni con Dropbox Business</h2>
+                    </div>
+                </div>
+    
+                <div class="row row_business">
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-switching-tools.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+
+                    </div>
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-send-files-it.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+
+                    </div>
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-coordinate-it.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+
+                    </div>
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-integrations-it.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+
+                    </div>
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-multi-device.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+
+                    </div>
+                    <div class="col-6 col_business">
+                        <figure>
+                            <img src="./img/business-feature-security.png" alt="">
+                        </figure>
+                        
+                        <h2>Passa di meno da uno strumento all'altro</h2>
+                        <p>Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 col_info">
+                        <h2 class="title_business">
+                            Più di 500.000 team utilizzano <br> Dropbox Business
+                        </h2>
+                        <a class="info_business" href="#">Scopri di più sui nostri clienti</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container_all">
+                <div class="row">
+                    <div class="col_5">
+                        <figure>
+                            <img class="logo_images logo_designit" src="./img/designit.svg" alt="">
+                            <img class="logo_images logo_florida" src="./img/university_of_florida.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col_5">
+                        <figure>
+                            <img class="logo_images logo_arizona" src="./img/arizona_state_university.svg" alt="">
+                        </figure>
+                        <figure>
+                            <img class="logo_images logo_topps" src="./img/topps.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col_5">
+                        <figure>
+                            <img class="big_logo" src="./img/designit.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col_5">
+                        <figure>
+                            <img class="logo_images logo_bicycle" src="./img/world_bicycle_relief.svg" alt="">
+                        </figure>
+                        <figure>
+                            <img class="logo_images logo_lonely" src="./img/lonely_planet.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col_5">
+                        <figure>
+                            <img class="logo_images logo_hearst" src="./img/hearst_corp.svg" alt="">
+                        </figure>
+                        <figure>
+                            <img class="logo_images logo_clear" src="./img/clear_channel.svg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_marketing">
+            <div class="container_standard">
+                <div class="row row_marketing">
+                    <div class="col">
+                        <h2 class="title_marketing">
+                            Porta Dropbox Business <br> nella tua azienda
+                        </h2>
+                        <a class="button button_marketing" href="#">Inizia la tua prova gratuita</a>
+                    </div>
+
                 </div>
             </div>
         </section>

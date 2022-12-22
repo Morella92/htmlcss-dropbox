@@ -53,10 +53,10 @@ section{
 
 /********** HEADER RULES********* */
 
-.navbar{
+.navbar-header{
     padding: 20px;
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav_list{
@@ -64,9 +64,14 @@ section{
     align-items: center;
 }
 
-.nav_list_items{
+.list_items{
     padding: 0 20px;
     line-height: 10px;
+    white-space: nowrap;
+}
+
+.logo_dropbox{
+    padding-left: 0;
 }
 
 .button{
@@ -74,11 +79,12 @@ section{
     color: white;
     padding: 10px 20px;
     width: fit-content;
+    white-space: nowrap;
 }
 
 /**********HERO RULES *******/
 
-.section_hero{
+.section_hero, .section_marketing{
     background-color: #B4D0E7;
 }
 
@@ -93,11 +99,9 @@ section{
 }
 
 .col_hero_content{
-    flex-basis: 40%;
-    padding-right: 40px;
-    position: relative;
+    flex-basis: 30%;
 }
-
+/* USARE IL FLEX COLUMN */
 .p_hero{
     margin-bottom: 40px;
     line-height: 30px;
@@ -109,15 +113,11 @@ section{
 
 .fa-arrow-down{
     font-weight: 700;
-    font-size: 60px;
-    position: absolute;
-    bottom: 80px;
-    left: 0;
+    font-size: 50px;
 }
 
 .col_hero_image{
-    flex-basis: 60%;
-    padding-top: 10px;
+    flex-basis: 70%;
 }
 
 /********** FIRST STANDARD SECTION ********/
@@ -131,9 +131,8 @@ section{
     padding: 45px 45px 45px 0;
 }
 
-.row_card{
+.row_card, .row_business{
     flex-wrap: wrap;
-
 }
 
 .col_card{
@@ -161,8 +160,15 @@ section{
     line-height: 25px;
 }
 
-.buy{
+.buy, .info_business{
     text-decoration: underline;
+    color: blue;
+}
+
+.button_3card{
+    padding: 10px 60px;
+}
+.fa-check{
     color: blue;
 }
 
@@ -179,5 +185,104 @@ section{
 
 .last_card_info{
     padding: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+/**********SECTION PARTNER RULES*******/
+
+.row_partner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.col_partner{
+    line-height: 40px;
+    padding: 30px;
+}
+
+.title_partner{
+    font-size: 22px;
+}
+
+.p_partner{
+    margin-bottom: 30px;
+}
+
+.button_partner, .button_marketing{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.row_business{
+    align-items: center;
+}
+
+.title_business, .title_marketing{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.col_business{
+    flex-basis: calc(100% / 3);
+    padding: 20px 10px;
+}
+
+.col_info{
+    padding-top: 60px;
+    line-height: 40px;
+}
+
+/*****LOGO IMAGES RULES*******/
+
+.col_5{
+    flex-basis: calc(100% / 5);
+}
+
+.logo_images{
+    min-height: 250px;
+    color: white;
+}
+
+.logo_designit{
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.logo_florida{
+    background-color: rgb(57, 144, 191);
+}
+
+.logo_arizona{
+    background-color: #61082B;
+}
+
+.logo_topps{
+    background-color: tomato;
+}
+
+.big_logo{
+    background-color: lightslategray;
+}
+
+.logo_bicycle{
+    background-color: darkred;
+}
+
+.logo_lonely{
+    background-color: blue;
+}
+
+.logo_hearst{
+    background-color: #E1E5FB;
+}
+
+.logo_clear{
+    background-color: yellow;
+}
+
+.title_marketing{
+    color: #61082B;
 }
