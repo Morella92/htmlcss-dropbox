@@ -48,9 +48,6 @@ section{
     padding-top: 90px;
 }
 
-/**** DEBUG RULES********/
-
-
 /********** HEADER RULES********* */
 
 .navbar-header{
@@ -131,7 +128,7 @@ section{
     padding: 45px 45px 45px 0;
 }
 
-.row_card, .row_business{
+.row_business{
     flex-wrap: wrap;
 }
 
@@ -151,13 +148,23 @@ section{
     padding: 10px;
 }
 
-.card_list, .click_list, .packet_description{
-    line-height: 60px;
+.packet_info, .card_list, .click_list, .packet_description{
+    line-height: 30px;
     padding: 20px;
 }
 
+.price{
+    font-weight: 700;
+}
+
+.monthly{
+    color: lightslategray;
+}
+
 .button_click_list{
+    display: block;
     line-height: 25px;
+    font-size: 18px;
 }
 
 .buy, .info_business{
@@ -249,7 +256,7 @@ section{
 }
 
 .logo_images{
-    min-height: 250px;
+    height: 200px;
 }
 
 .big_col{
