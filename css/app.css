@@ -249,55 +249,75 @@ section{
     line-height: 40px;
 }
 
-/*****LOGO IMAGES RULES*******/
-
+/******** LOGO IMAGES RULES********/
 .col_images{
     flex-basis: calc(100% / 6);
 }
 
-.logo_images{
+.bg_images{
     height: 200px;
 }
 
 .big_col{
     flex-grow: 1;
+}
+
+.big_logo{
+    height: 400px;
     background-color: lightslategray;
 }
 
-.logo_designit{
+.big_p{
+    padding: 20px;
+
+}
+.images_style{
+    filter: invert(100);
+    width: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.big_style{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.designit_logo{
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
-    margin-bottom: 0;
 }
 
-.logo_florida{
-    background-color: rgb(57, 144, 191);
-}
-
-.logo_arizona{
+.arizona_logo{
     background-color: #61082B;
 }
 
-.logo_topps{
+.florida_logo{
+    background-color: rgb(57, 144, 191);
+}
+
+.topps_logo{
     background-color: tomato;
 }
 
-.logo_bicycle{
+.bicycle_logo{
     background-color: darkred;
 }
 
-.logo_lonely{
+.lonely_logo{
     background-color: blue;
 }
 
-.logo_hearst{
+.hearst_logo{
     background-color: #E1E5FB;
 }
 
-.logo_clear{
+.clear_logo{
     background-color: yellow;
-}
+} 
 
+/*****SECTION MARKETING RULES ********/
 .title_marketing{
     color: #61082B;
 }
